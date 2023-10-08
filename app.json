@@ -4,23 +4,23 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/Guru322/GURU-BOT",
+  "repository": "https://github.com/SysSolutionsPE/GURU-BOT",
   "stack": "container",
   "env": {
     "DATABASE_URL": {
-      "description": "your mongodb database url",
-      "required": false,
-      "value": ""
+      "description": "mongodb+srv://SysSolutions:Velkan16@syssolutions.enumrbx.mongodb.net/?retryWrites=true&w=majority",
+      "required": true,
+      "value": "mongodb+srv://SysSolutions:Velkan16@syssolutions.enumrbx.mongodb.net/?retryWrites=true&w=majority"
     },
     "SESSION_ID": {
-      "description": "your session id",
+      "description": "Guru_DeviousDelaying",
       "required": true,
-      "value": ""
+      "value": "Guru_DeviousDelaying"
     },
      "REMOVEBG_KEY": {
-      "description": "your RemoveBg api key",
-      "required": false,
-      "value": ""
+      "description": "vtZjSp37rg6JQ82T39HmrHvQ",
+      "required": true,
+      "value": "vtZjSp37rg6JQ82T39HmrHvQ"
     }
     },
     "buildpacks": [
